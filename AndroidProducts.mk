@@ -1,0 +1,3 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/WW_P00A.mk \
+    $(LOCAL_DIR)/WW_P00C.mk
