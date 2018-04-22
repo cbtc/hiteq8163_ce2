@@ -1,3 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/WW_P00A.mk \
-    $(LOCAL_DIR)/WW_P00C.mk
+    $(LOCAL_DIR)/hiteq8163_ce.mk \
