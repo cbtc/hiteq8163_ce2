@@ -1,4 +1,4 @@
-LOCAL_PATH := device/asus/hiteq8163_ce
+LOCAL_PATH := device/CUBE/hiteq8163_ce
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
