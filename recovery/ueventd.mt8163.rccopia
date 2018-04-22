@@ -9,12 +9,19 @@
 /dev/block/platform/soc/11230000.mmc/by-name/logo      0660    root    system
 /dev/block/platform/soc/11230000.mmc/by-name/frp       0660    root    system
 
+# ion
+/dev/ion                  0666   root       root
+
 # Connectivity
 /dev/stpwmt               0660   system     system
 /dev/wmtdetect            0660   system     system
 
 # BT
 /dev/stpbt                0660   bluetooth  net_bt_stack
+
+#DTS_EAGLE START
+/dev/dts_eagle            0660   system     audio
+#DTS_EAGLE END
 
 # GPS
 /dev/stpgps               0660   gps        gps
@@ -33,7 +40,7 @@
 /dev/msr3110              0666   root       root
 /dev/mt6605               0660   nfc        radio
 
-# ION
+#ION
 /dev/ion                  0666   root       root
 
 # MTK BTIF driver
